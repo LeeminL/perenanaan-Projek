@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tes — Alat Perencanaan Proyek</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="halaman-tes">
+  <header class="kopal">
+    <div class="kopal-isi">
+      <h1>Tes Otomatis Alat Perencanaan Proyek</h1>
+      <p class="kopal-sub">Pengecekan otomatis atas Contoh 1 (Toko Online Roti Manis Gorontalo) dan Contoh 2 (Jalur kritis Aplikasi Kasir dan Stok Toko), ditambah kasus FS/SS/FF/SF, hari libur, dan siklus dependensi.</p>
+      <nav class="kopal-nav">
+        <a href="index.html">← Kembali ke aplikasi</a>
+        <button id="ulangi" type="button">Jalankan ulang tes</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wadah">
+    <div id="ringkasan" class="ringkasan">Menjalankan tes…</div>
+    <div id="hasil"></div>
+  </main>
+
+  <script src="hitung.js"></script>
+  <script src="contoh.js"></script>
+  <script src="tes.js"></script>
+  <script>
+    document.getElementById('ulangi').addEventListener('click', function () {
+      Tes.tampilkan(Tes.jalankan());
+    });
+  </script>
+</body>
+</html>
