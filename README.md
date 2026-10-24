@@ -150,5 +150,6 @@ A–D–H–J = 22, C–G–I–J = 15, B–F–J = 10. Estimasi lama proyek = *
    dan deteksi siklus dependensi.
 
 ## Tampilan Antarmuka (UI) Aplikasi
-![Tampilan Aplikasi](Screenshot 2026-10-24 185025.png)
-![Tampilan Aplikasi](Screenshot 2026-10-24 185257.png)
+![Tampilan Aplikasi 1](Screenshot 2026-10-24 185025.png) 
+
+![Tampilan Aplikasi 2](Screenshot 2026-10-24 185257.png)
