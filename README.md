@@ -148,3 +148,7 @@ A–D–H–J = 22, C–G–I–J = 15, B–F–J = 10. Estimasi lama proyek = *
    serta float sejumlah kegiatan non-kritis.
 3. **Kasus tambahan** — perilaku `FS`/`SS`/`FF`/`SF` + jeda, pelewatan libur khusus,
    dan deteksi siklus dependensi.
+
+## Tampilan Antarmuka (UI) Aplikasi
+![Tampilan Aplikasi](Screenshot 2026-10-24 185025.png)
+![Tampilan Aplikasi](Screenshot 2026-10-24 185257.png)
